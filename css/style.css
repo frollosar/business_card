@@ -1,0 +1,133 @@
+*{margin: 0 auto; padding: 0;}
+
+body{
+    width: 1300px;    
+    }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-right: 140px;
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 70px;
+    border-top: 8px solid #40638e;
+    padding-bottom: 30px;
+      }
+
+header ul{
+    display: flex;
+    text-align: right;
+    margin-top: 15px;
+    color: #3227a5;
+}
+
+header li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: #3227a5;
+
+}
+
+header li#menu-home:before{
+    content: url("../img/home.png");
+    padding-right: 5px;
+}
+
+header li#menu-about:before{
+    content: url("../img/aboutus.png");
+    padding-right: 5px;
+}
+
+header li#menu-contactus:before{
+    content: url("../img/email.png");
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.logo img{
+    height: 70px;
+}
+
+.logo h1{
+    display: block;
+    margin: 15px;
+    font-size: 24px;
+    color: #000000;
+    }
+
+.preview{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    }
+
+.shortdescrip {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fulldescrip {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+.workImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;    
+}
+
+#work1Img{
+    height: 70px;
+    width: 70px;
+}
+
+.Workdescp{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.MainWorkName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    background: #E7E7E7;
+    border-bottom: 8px solid #40638e;
+}
