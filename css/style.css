@@ -5,8 +5,9 @@ body{
     }
 
 .container{
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    width: 1000px;
+    height: 1400px;
     margin-left: 140px;
     margin-right: 140px;
     background: #fff;
@@ -18,6 +19,7 @@ ul {
 
 header{
     display:flex;
+    margin: 0;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
@@ -51,7 +53,7 @@ header li#menu-about:before{
     padding-right: 5px;
 }
 
-header li#menu-contactus:before{
+header li#menu-contacts:before{
     content: url("../img/email.png");
     padding-right: 5px;
     padding-top: 2px;
@@ -73,20 +75,11 @@ header li#menu-contactus:before{
     color: #000000;
     }
 
-.preview{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    }
-
 .shortdescrip {
-    display: flex;
-    flex-direction: column;
     font-size: 30px;
     margin-top: 15px;
-    justify-content: center;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
 .fulldescrip {
@@ -99,7 +92,7 @@ header li#menu-contactus:before{
 .workImg{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 250px;    
 }
 
@@ -109,25 +102,23 @@ header li#menu-contactus:before{
 }
 
 .Workdescp{
+    height: 200px;
+    width: 750px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .MainWorkName{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 23px;
     font-weight: bold;
 }
 
 footer{
-    display: flex;
+    position: absolute;
     width: 1000px;
     height: 100px;
     margin-left: 140px;
     margin-bottom: 0px;
-    justify-content: flex-start;
     background: #E7E7E7;
     border-bottom: 8px solid #40638e;
 }
